@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<title>USAF LEAVE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">.buttonload {
+  background-color: null; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  font-size: 16px; /* Set a font-size */
+}
+/* Add a right margin to each icon */
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+
+<h2>Loading Buttons</h2>
+
+/* Button used to open the contact form - fixed at the centre of the page */
+.open-button {
+  background-color: blue;
+  color: white;
+  padding: 26px 30px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: powderblue;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: blue;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: Blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+	</style>
+</head>
+<body>
+<h1 style="text-align: center;"><b><b>WELCOME TO USAF SUMMER LEAVE REQUESTS</b></b></h1>
+
+<p></p>
+
+<div style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px; text-align: center;"><b>AF form 988</b>&nbsp;is a leave requisition form used by the United States Air Force authorizing leave from the service. The form 988 is available on the website of United States Air Force documentation or can be supplied through the chain of command like the other forms used by the Defense Department.</div>
+
+<p><b><b><b><b><button class="buttonload"><button onclick=<p><a href="mad.html">CLICK TO APPLY</button></b></b></b></b><b><b><b><b>&nbsp;</b></b></b></b></p>
+
+<div class="form-popup" id="myForm">
+<form action="/action_page.php" class="form-container">
+<p><b><b><b><b><b><script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("coming soon").style.display = "none";
+}
+</script></b></b></b></b></b></p>
+</form>
+</div>
+</body>
+</html>
+
